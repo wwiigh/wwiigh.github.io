@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -402,12 +402,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-2d-card-game",
-          title: '2D Card Game',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -457,6 +452,11 @@ ninja.data = [{
           description: "XR Showcase Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/XR_P3/";
+            },},{id: "projects-unity-game-design-2d-card-game",
+          title: 'Unity game design - 2D Card Game',
+          description: "Computer Scienece and Engineering Projects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/card_game/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
